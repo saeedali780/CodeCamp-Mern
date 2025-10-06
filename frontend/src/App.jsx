@@ -1,7 +1,7 @@
 import {Routes, Route} from 'react-router'
-import HomePage from './pages/HomePage';
-import CreatePage from './pages/CreatePage';
-import NoteDetailPage from './pages/NoteDetailPage';
+import HomePage from './pages/HomePage.jsx';
+import CreatePage from './pages/CreatePage.jsx';
+import NoteDetailPage from './pages/NoteDetailPage.jsx';
 
 const App = () => {
   return (
