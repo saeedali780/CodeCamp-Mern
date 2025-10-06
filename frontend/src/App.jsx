@@ -6,7 +6,7 @@ import NoteDetailPage from './pages/NoteDetailPage';
 const App = () => {
   return (
     <div  className="relative h-full w-full">
-      <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_60%,#00FF9D40_100%)]" />
+      <div class="absolute top-0 -z-10 h-full w-full bg-white"><div class="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]"></div></div>
       <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/create" element={<CreatePage/>} />
